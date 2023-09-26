@@ -135,3 +135,5 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CELERY_BROKER_URL = 'redis://redis:6379/0'
+
+ALLOWED_FILE_TYPES = ['image/jpeg', 'image/png', 'application/pdf', 'application/vnd.ms-excel', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet']
