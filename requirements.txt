@@ -22,3 +22,4 @@ tzdata==2023.3
 vine==5.0.0
 wcwidth==0.2.6
 psycopg2==2.8.6
+python-magic==0.4.27
